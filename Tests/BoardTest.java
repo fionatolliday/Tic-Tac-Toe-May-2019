@@ -18,7 +18,7 @@ public class BoardTest {
     @Test
     public void emptyBoardIs3ArraysOf3Dots(){
         Board board = new Board();
-        String expected = "...\n...\n...\n";
+        String expected = ". . .\n. . .\n. . .";
         String actual = board.printTheBoard();
 
         Assert.assertEquals(expected, actual);

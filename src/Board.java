@@ -5,34 +5,37 @@ import java.util.List;
 public class Board {
 
 
-    private ArrayList<List<String>> board;
+    private List<List<String>> board;
 
-    public ArrayList<List<String>> getBoard() {
+    public List<List<String>> getBoard() {
         return board;
     }
 
 
-
-
-    public Board(){
+    public Board() {
         this.board = new ArrayList<>();
-        List<String> inner1 = Arrays.asList("."+"."+".");
-        List<String> inner2 = Arrays.asList("."+"."+".");
-        List<String> inner3 = Arrays.asList("."+"."+".");
+        List<String> row1 = Arrays.asList(".", ".", ".");
+        List<String> row2 = Arrays.asList(".", ".", ".");
+        List<String> row3 = Arrays.asList(".", ".", ".");
 
-        this.board.add(inner1);
-        this.board.add(inner2);
-        this.board.add(inner3);
+        this.board.add(row1);
+        this.board.add(row2);
+        this.board.add(row3);
 
     }
 
 
-    public String printTheBoard(){
-        String printBoard = "";
+    public String printTheBoard() {
+//        create a list where we will put in all of the rows joined together
+        List<String> rows = new ArrayList<>();
+
+//        jump into the 3 arrays and join the dots with a space
         for (List<String> innerArray : board) {
-            for (String position: innerArray )
-            printBoard += position + "\n";
-        } return printBoard;
+                rows.add(String.join(" ", innerArray));
+        }
+//        return the rows with a line break between.
+        return String.join("\n", rows);
+
 
 
     }

@@ -74,6 +74,7 @@
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/src/com/company/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/src/com/company/PayCalculator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -97,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
@@ -108,11 +109,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="4309" column="32" selection-start-line="4309" selection-start-column="31" selection-end-line="4309" selection-end-column="32" />
+              <folding>
+                <element signature="e#200691#200692#0" expanded="true" />
+                <element signature="e#200732#200733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4045">
+              <caret line="177" column="31" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/BoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
@@ -131,6 +154,11 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>`</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -190,7 +218,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558044595596" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558049298259" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -292,34 +320,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TurnDeciderTest - 2019.05.16 at 11h 16m 45s.xml">
-      <configuration name="TurnDeciderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 36m 30s.xml">
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 36m 00s.xml">
       <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 36m 52s.xml">
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 37m 11s.xml">
       <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 58m 49s.xml">
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 37m 45s.xml">
       <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 59m 33s.xml">
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 38m 10s.xml">
       <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 59m 58s.xml">
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 43m 23s.xml">
       <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 15h 27m 13s.xml">
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 43m 45s.xml">
       <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 15h 32m 34s.xml">
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 45m 00s.xml">
       <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 05m 17s.xml">
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 48m 05s.xml">
       <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 08m 50s.xml">
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 49m 01s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 09h 28m 16s.xml">
       <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -422,10 +450,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Board.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4045">
+          <caret line="177" column="31" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <caret line="4309" column="32" selection-start-line="4309" selection-start-column="31" selection-end-line="4309" selection-end-column="32" />
+          <folding>
+            <element signature="e#200691#200692#0" expanded="true" />
+            <element signature="e#200732#200733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />
@@ -437,7 +483,7 @@
     <entry file="file://$PROJECT_DIR$/Tests/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#146#147#0" expanded="true" />
