@@ -74,6 +74,7 @@
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/src/com/company/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/src/com/company/PayCalculator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,27 +94,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="418">
+              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/BoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="308">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#75#76#0" expanded="true" />
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,6 +128,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -141,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/Game.java" />
         <option value="$PROJECT_DIR$/src/TurnDecider.java" />
         <option value="$PROJECT_DIR$/src/Board.java" />
+        <option value="$PROJECT_DIR$/Tests/BoardTest.java" />
       </list>
     </option>
   </component>
@@ -185,11 +190,21 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557969458264" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558044595596" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,7 +218,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TurnDeciderTest">
+  <component name="RunManager" selected="JUnit.BoardTest.emptyBoardIs3ArraysOf3Dots">
+    <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToeMay2019" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoardTest" />
+      <option name="METHOD_NAME" value="emptyBoardIs3ArraysOf3Dots" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerTest.nameIsPlayer1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TicTacToeMay2019" />
       <option name="PACKAGE_NAME" value="" />
@@ -245,6 +270,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardTest.emptyBoardIs3ArraysOf3Dots" />
         <item itemvalue="JUnit.TurnDeciderTest" />
         <item itemvalue="JUnit.TurnDeciderTest.Player2PlaysSecond" />
         <item itemvalue="JUnit.TurnDeciderTest.Player1PlaysFirst" />
@@ -266,42 +292,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TurnDeciderTest_Player2PlaysSecond - 2019.05.16 at 10h 46m 54s.xml">
-      <configuration name="TurnDeciderTest.Player2PlaysSecond" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurnDeciderTest - 2019.05.16 at 10h 50m 33s.xml">
-      <configuration name="TurnDeciderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurnDeciderTest_Player1PlaysFirst - 2019.05.16 at 10h 51m 57s.xml">
-      <configuration name="TurnDeciderTest.Player1PlaysFirst" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurnDeciderTest_Player2PlaysSecond - 2019.05.16 at 10h 52m 15s.xml">
-      <configuration name="TurnDeciderTest.Player2PlaysSecond" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurnDeciderTest_Player2PlaysSecond - 2019.05.16 at 10h 52m 16s.xml">
-      <configuration name="TurnDeciderTest.Player2PlaysSecond" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurnDeciderTest_Player2PlaysSecond - 2019.05.16 at 11h 01m 36s.xml">
-      <configuration name="TurnDeciderTest.Player2PlaysSecond" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurnDeciderTest_Player2PlaysSecond - 2019.05.16 at 11h 01m 38s.xml">
-      <configuration name="TurnDeciderTest.Player2PlaysSecond" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurnDeciderTest_Player1PlaysFirst - 2019.05.16 at 11h 08m 07s.xml">
-      <configuration name="TurnDeciderTest.Player1PlaysFirst" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurnDeciderTest_Player2PlaysSecond - 2019.05.16 at 11h 08m 10s.xml">
-      <configuration name="TurnDeciderTest.Player2PlaysSecond" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TurnDeciderTest - 2019.05.16 at 11h 16m 45s.xml">
       <configuration name="TurnDeciderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 36m 30s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 36m 52s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 58m 49s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 59m 33s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 14h 59m 58s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 15h 27m 13s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.16 at 15h 32m 34s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 05m 17s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_emptyBoardIs3ArraysOf3Dots - 2019.05.17 at 08h 08m 50s.xml">
+      <configuration name="BoardTest.emptyBoardIs3ArraysOf3Dots" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -310,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35321638" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35321638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32748538" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,8 +424,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="418">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
