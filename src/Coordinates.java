@@ -7,11 +7,9 @@ import java.util.Scanner;
 
 public class Coordinates {
 
-    Scanner userInput = new Scanner(System.in);
-    String readUserInput = userInput.nextLine();
     Messages messagePrinter = new Messages();
 
-    public void checkForValidCoordinates(){
+    public void checkForValidCoordinates(String readUserInput){
         String[] userCoordinatesSplit = readUserInput.split(",");
         String coordinateX = userCoordinatesSplit[0];
         String coordinateY = userCoordinatesSplit[1];

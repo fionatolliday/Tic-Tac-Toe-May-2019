@@ -7,6 +7,7 @@ public class Main {
         Messages messagePrinter = new Messages();
         Board board = new Board();
         Game game = new Game();
+        Coordinates coordinates = new Coordinates();
         Scanner userInput = new Scanner(System.in);
 
         game.getNumOfPlays();
@@ -18,6 +19,7 @@ public class Main {
 
         messagePrinter.messageOutput(MsgEnum.OPENINGINSTRUCTIONS);
         String readUserInput = userInput.nextLine();
+        coordinates.checkForValidCoordinates(readUserInput);
 
 
     }
