@@ -24,7 +24,6 @@ public class Board {
 
     }
 
-
     public String printTheBoard() {
 //        create a list where we will put in all of the rows joined together
         List<String> rows = new ArrayList<>();
@@ -35,8 +34,6 @@ public class Board {
         }
 //        return the rows with a line break between.
         return String.join("\n", rows);
-
-
-
     }
+
 }

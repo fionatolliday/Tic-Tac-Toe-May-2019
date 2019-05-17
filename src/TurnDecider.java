@@ -23,4 +23,21 @@ public class TurnDecider {
     }
 
 
+    public char getCurrentPlayerPiece() {
+        if (game.getNumOfPlays() % 2 == 0) {
+            return player1.getPlayerPiece();
+
+        } else
+            return player2.getPlayerPiece();
+    }
+
+    public char getNextPlayerPiece() {
+        if (getCurrentPlayer() == player1.getName()) {
+            return player2.getPlayerPiece();
+
+        } else
+            return player1.getPlayerPiece();
+    }
+
+
 }
