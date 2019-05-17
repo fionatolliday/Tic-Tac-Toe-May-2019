@@ -1,3 +1,6 @@
+
+
+
 public class Game {
 
 
@@ -17,6 +20,24 @@ public class Game {
     public void incrementUpNumberOfGames(){
         numOfPlays++;
     }
+
+
+
+
+
+    public void checkIfPositionVacant(){
+
+    }
+
+    public void checkForAWin(){
+//        vertical, horizontal and diaganol(both directions)
+    }
+
+    public void checkForADraw(){
+//        all spots are taken with even 0 and x
+    }
+
+
 
 
 }

@@ -19,8 +19,14 @@ public class Messages {
                 System.out.println("Here's the current board:");
                 break;
 
-            case INSTRUCTIONS:
-                System.out.println(turnDecider.getNextPlayer() + "enter a coord x,y to place your " + turnDecider.getNextPlayerPiece() + " or enter 'q' to give up: ");
+            case OPENINGINSTRUCTIONS:
+                System.out.println(turnDecider.getCurrentPlayer() + " enter a coord x,y to place " +
+                        "your " + turnDecider.getCurrentPlayerPiece() + " or enter 'q' to give up: ");
+                break;
+
+            case ONGOINGINSTRUCTIONS:
+                System.out.println(turnDecider.getNextPlayer() + " enter a coord x,y to place " +
+                        "your " + turnDecider.getNextPlayerPiece() + " or enter 'q' to give up: ");
                 break;
 
             case MOVEACCEPTED:
