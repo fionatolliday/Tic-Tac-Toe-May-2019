@@ -32,7 +32,7 @@ public class TurnDecider {
     }
 
     public char getNextPlayerPiece() {
-        if (getCurrentPlayer() == player1.getName()) {
+        if (getCurrentPlayerPiece() == player1.getPlayerPiece()) {
             return player2.getPlayerPiece();
 
         } else

@@ -1,21 +1,15 @@
-public class MessagesEnum {
+public class Messages {
 
     TurnDecider turnDecider = new TurnDecider();
 
 
-    public enum Messages {
-        WELCOME, CURRENTBOARD, INSTRUCTIONS, MOVEACCEPTED, SPOTTAKEN, GAMEWON, INCORRECTCOORDS,
-        GAMEDRAW
+//    MsgEnum message;
+//
+//    public Messages(MsgEnum message) {
+//        this.message = message;
+//    }
 
-    }
-
-    Messages message;
-
-    public void MessageEnum(Messages message) {
-        this.message = message;
-    }
-
-    public void messageOutput() {
+    public void messageOutput(MsgEnum message) {
         switch (message) {
             case WELCOME:
                 System.out.println("Welcome to Tic Tac Toe!");
